@@ -1,8 +1,8 @@
 📚 Course Search & Routine Builder
 A simple PHP + MySQL based web app to search university courses and build a weekly class routine interactively.
 🚀 Features
-•	🔍 Course Search: Search by code, title, or faculty
-•	📝 Dynamic Results Table: Shows course info with ID, code, section, faculty, time, and capacity
+•	🔍 Course Search: Search by code, title
+•	📝 Dynamic Results Table: Shows course info with ID, code, section, time, and capacity
 •	📅 Routine Builder: Click a row to add the course to a visual routine chart
 •	⚡ Clash Detection: Prevents adding overlapping courses
 •	🗑 Clear Routine: One-click reset with local storage cleanup
