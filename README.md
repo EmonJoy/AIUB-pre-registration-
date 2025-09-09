@@ -24,38 +24,7 @@ A simple PHP + MySQL based web app to search university courses and build a week
  ├── offered_courses.sql # Sample DB (you need to create this table)
  └── README.md           # Project documentation
 
-🗄️ Database Setup
-1.	Create a database named bigpro.
-2.	Create a table offered_courses with columns like:
 
-CREATE TABLE offered_courses (
-    class_id INT AUTO_INCREMENT PRIMARY KEY,
-    course_code VARCHAR(20),
-    course_title VARCHAR(100),
-    section VARCHAR(10),
-    faculty VARCHAR(100),
-    day VARCHAR(20),
-    start_time VARCHAR(20),
-    end_time VARCHAR(20),
-    capacity INT,
-    count INT
-);
-
-Insert some sample data:
-
-INSERT INTO offered_courses (course_code, course_title, section, faculty, day, start_time, end_time, capacity, count)
-VALUES
-('CSE101', 'Intro to Programming', 'A', 'Dr. Rahman', 'Sunday', '10:00 AM', '11:30 AM', 40, 35),
-('MAT201', 'Discrete Math', 'B', 'Prof. Karim', 'Tuesday', '2:00 PM', '3:30 PM', 50, 42);
-
-▶️ How to Run
-1. Clone or download the project:
-git clone https://github.com/your-username/course-routine.git
-cd course-routine
-2. Place files in htdocs (if using XAMPP).
-3. Import offered_courses.sql into MySQL.
-4. Start Apache & MySQL.
-5. Open in browser: http://localhost/course-routine
 📸 Screenshots
 - Search Panel
 - Course Table
