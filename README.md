@@ -13,7 +13,7 @@ A simple PHP + MySQL based web app to search university courses and build a week
 •	Backend: PHP (MySQLi)
 •	Database: MySQL (offered_courses table)
 
-**YOU can access site from this link --> [https://emon.ct.ws/bigpro.php](https://emon.ct.ws/bigpro.php)**
+**YOU can access site from this link --> [https://emon.ct.ws/bigpro.php](https://emon.ct.ws/)**
 
 
 📂 Project Structure
